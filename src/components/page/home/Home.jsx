@@ -11,17 +11,15 @@ export const Home = () => {
           I'm <span className="text-[#ed3a6a] font-VN">Vinay</span> <br />
           MERN Developer <br />
           <div className="text-[18px] font-normal">
-            Final year undergraduate student, passionate about problem-solving
-            and building scalable software solutions. With strong grip in Data
-            Structures and Algorithms, have solved over 300 problems on
-            platforms like Leetcode and GeeksforGeeks
+            Passionate about problem-solving and building scalable software
+            solutions.
           </div>
           <div>
             <Button
-              className="bg-[#ed3a6a] text- hover:text-white hover:bg-[#ec5c83] border-1 font-DN text-[20px] px-6 py-5 rounded-sm"
-              onClick={() => navigate("/contact")}
+              className="bg-[#1b689b] text- hover:text-white hover:bg-[#3ba0e3] border-1 font-DN text-[20px] px-6 py-5 rounded-sm"
+              onClick={() => navigate("/about")}
             >
-              Contact
+              Know more
             </Button>
           </div>
         </div>
