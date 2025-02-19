@@ -1,13 +1,19 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
   return (
     <>
       <header className="sticky z-50 top-0 shadow px-[140px] bg-slate-700">
         <nav className=" text-gray-300 font-semibold px-4 lg:px-6 py-2.5">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <div>Vinay Duryodhan</div>
+            <div
+              className="font-bold text-[25px] cursor-pointer"
+              onClick={() => navigate("/about")}
+            >
+              Vinay Duryodhan
+            </div>
             <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>

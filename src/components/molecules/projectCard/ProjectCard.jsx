@@ -14,9 +14,11 @@ export const ProjectCard = ({
         <img className=" w-full rounded-sm " src={img} alt="" />
       </div>
       <div className="w-full border-t-2 border-gray-800 mt-3" />
-      <div className="mt-4">
-        <div className="flex justify-between">
-          <h1 className="font-DM font-medium text-[20px] mb-2">{title}</h1>
+      <div className="mt-5">
+        <div className="flex justify-between mb-3">
+          <h1 className="font-VN font-semibold text-[22px] text-gray-100 ">
+            {title}
+          </h1>
           {link && (
             <div>
               <a
@@ -29,9 +31,9 @@ export const ProjectCard = ({
             </div>
           )}
         </div>
-        <p className="text-[14px] text-gray-300">{description}</p>
+        <p className="text-[14px] text-gray-200 font-medium">{description}</p>
         <div className="mt-4 flex">
-          <h2>Skills: &nbsp;</h2>
+          <h2 className="font-semibold">Skills: &nbsp;</h2>
           <ul className="list-disc ">
             {skills?.map((skill) => {
               return (

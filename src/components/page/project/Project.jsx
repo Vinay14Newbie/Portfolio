@@ -6,7 +6,7 @@ import slack_pic from "../../../assets/slack-app.png";
 
 export const Project = () => {
   return (
-    <div className="px-[164px] bg-slate-600 py-8 grid grid-cols-2 gap-4">
+    <div className="px-[164px] bg-slate-600 py-8 grid grid-cols-2 gap-4 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90">
       <ProjectCard
         title={"Messaging App"}
         description={

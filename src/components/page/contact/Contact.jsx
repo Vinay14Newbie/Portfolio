@@ -1,10 +1,17 @@
+import { ContactForm } from "@/components/molecules/contactForm/ContactForm";
 import { Button } from "@/components/ui/button";
 import { LinkedinIcon, MailIcon } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <div className="px-[140px] flex flex-col justify-center items-center pt-24 bg-slate-600 text-gray-200">
-      <div className="font-VN text-[90px] ">Want to say Hello...</div>
+    <div className="px-[164px] flex flex-col justify-center items-center pt-24 bg-slate-600 text-gray-200 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90">
+      <div className="flex">
+        <div className="font-VN text-[60px]">Want to say Hello...</div>
+
+        <div className="w-[500px]">
+          <ContactForm />
+        </div>
+      </div>
 
       <div className="flex items-center justify-between my-20">
         <div className="mr-20">
