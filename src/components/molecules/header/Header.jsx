@@ -10,7 +10,7 @@ export default function Header() {
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <div
               className="font-bold text-[25px] cursor-pointer"
-              onClick={() => navigate("/about")}
+              onClick={() => navigate("/")}
             >
               Vinay Duryodhan
             </div>

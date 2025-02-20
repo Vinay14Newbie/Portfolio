@@ -23,7 +23,7 @@ export const About = () => {
             Software Engineer to contribute my skills, grow professionally, and
             tackle real-world challenges.
           </div>
-          <p className="text-[30px] font-semibold font-VN mt-8 ">
+          <p className="text-[30px] font-semibold font-VN mt-10 ">
             A Developer has many hats to wear...!
           </p>
           <div className="mt-4">
