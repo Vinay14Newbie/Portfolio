@@ -3,6 +3,7 @@ import ai_summariser_pic from "../../../assets/ai_text_summariser_pic.png";
 import redbus_pic from "../../../assets/redbus_pic.png";
 import imagegram_pic from "../../../assets/image-gram-pic.jpeg";
 import slack_pic from "../../../assets/slack-app.png";
+import currency_converter from "../../../assets/currency_converter.png";
 
 export const Project = () => {
   return (
@@ -45,6 +46,16 @@ export const Project = () => {
           "JSON Web Token (JWT)",
           "User Authentication",
         ]}
+      />
+      <ProjectCard
+        title={"Currency Converter"}
+        description={
+          "A dynamic and user-friendly currency converter application using React.js and Tailwind CSS. Integrated currency conversion API to fetch live exchange rates."
+        }
+        link={"https://currency-converter-wheat-ten.vercel.app/"}
+        img={currency_converter}
+        github={"https://github.com/Vinay14Newbie/Currency-Converter"}
+        skills={["React.js", "Tailwind-CSS", "API fetching"]}
       />
       <ProjectCard
         title={"AI Text Summarizer"}
