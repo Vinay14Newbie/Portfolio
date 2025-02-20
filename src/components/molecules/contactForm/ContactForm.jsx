@@ -52,7 +52,7 @@ export const ContactForm = () => {
           required
         />
         <Button size="lg" type="submit" className="w-full hover:bg-slate-800">
-          Submit
+          Send
         </Button>
       </form>
     </div>

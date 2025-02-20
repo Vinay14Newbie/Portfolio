@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
             <ul className="flex lg:space-x-8">
               <li className="hover:text-orange-300">
-                <Link to="/about">About</Link>
+                <Link to="/">About</Link>
               </li>
               <li className="hover:text-orange-300">
                 <Link to="/projects">Projects</Link>

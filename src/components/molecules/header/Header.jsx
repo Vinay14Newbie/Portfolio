@@ -18,7 +18,7 @@ export default function Header() {
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <NavLink
-                    to="/about"
+                    to="/"
                     className={({ isActive }) =>
                       `${
                         isActive ? "text-orange-300" : "text-gray-300"

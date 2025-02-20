@@ -9,7 +9,7 @@ export const ProjectCard = ({
   skills,
 }) => {
   return (
-    <div className="w-[500px] h-[] flex flex-col border border-gray-800 hover:border-2 px-5 py-6 rounded-md hover:scale-[1.05] bg-slate-500 text-gray-200">
+    <div className="w-[500px] h-[] flex flex-col border border-gray-800 hover:border-2 px-5 py-6 rounded-md hover:scale-[1.05] bg-slate-700 text-gray-200">
       <div>
         <img className=" w-full rounded-sm " src={img} alt="" />
       </div>
@@ -39,7 +39,7 @@ export const ProjectCard = ({
               return (
                 <li
                   key={skill}
-                  className="inline-block py-0.5 px-2 border-slate-800 border-2 rounded-full cursor-default hover:shadow-md bg-slate-600 hover:bg-slate-500 text-gray-300 mx-1 text-sm mb-1"
+                  className="inline-block py-0.5 px-2 border-slate-800 border-2 rounded-full cursor-default hover:shadow-md bg-slate-600 hover:bg-slate-700 text-gray-100 mx-1 text-sm mb-1"
                 >
                   {skill}
                 </li>

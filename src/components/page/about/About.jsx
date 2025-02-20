@@ -7,7 +7,7 @@ import leetcode_logo from "../../../assets/leetcode-svg.svg";
 export const About = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-slate-600 text-gray-200 pl-[264px] pr-[300px] bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90">
+    <div className="bg-slate-600 text-gray-200 pl-[264px] pr-[300px] bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed">
       <div className="flex">
         <div className="text-[60px] font-bold font-DM pt-14">
           Hi, <br />
@@ -23,10 +23,10 @@ export const About = () => {
             Software Engineer to contribute my skills, grow professionally, and
             tackle real-world challenges.
           </div>
-          <p className="text-[30px] font-semibold font-VN mt-8 mt-3">
+          <p className="text-[30px] font-semibold font-VN mt-8 ">
             A Developer has many hats to wear...!
           </p>
-          <div>
+          <div className="mt-4">
             <Button
               className="bg-[#1b689b]  hover:text-white hover:bg-[#2b80b9] border-1 font-DN text-[20px] px-6 py-5 rounded-sm"
               onClick={() => navigate("/contact")}
@@ -36,7 +36,7 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <div className="pt-5 pb-8">
+      <div className="pt-8 pb-10">
         <h1 className="font-DM text-[28px] font-normal">Social Links</h1>
         <ul className="w-full flex gap-x-6 mt-3">
           <li className="bg-[#ed3a6a] inline-block px-2 py-2 rounded-full text-[20px] hover:scale-[1.05] hover:bg-[#e84c75]">

@@ -4,9 +4,11 @@ import { LinkedinIcon, MailIcon } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <div className="px-[164px] flex flex-col justify-center items-center pt-24 bg-slate-600 text-gray-200 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90">
+    <div className="px-[164px] flex flex-col justify-center items-center pt-24 bg-slate-600 text-gray-200 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed">
       <div className="flex">
-        <div className="font-VN text-[60px]">Want to say Hello...</div>
+        <div className="font-VN text-[60px] leading-[8rem]">
+          Want to say Hello...
+        </div>
 
         <div className="w-[500px]">
           <ContactForm />
@@ -23,12 +25,12 @@ export const Contact = () => {
         </div>
         <div className="flex flex-col gap-5 mb-3">
           <a href="mailto:vinayduryodhan510@gmail.com">
-            <Button className="bg-gray-300 hover:bg-gray-400 text-slate-700 hover:text-white border-1">
+            <Button className="bg-gray-300 hover:bg-gray-400 text-slate-800 hover:text-white border-1">
               <MailIcon /> Mail
             </Button>
           </a>
           <a href="https://www.linkedin.com/in/vinay-duryodhan-53524b273/">
-            <Button className="bg-gray-300 hover:bg-gray-400 text-slate-700 hover:text-white border-1">
+            <Button className="bg-gray-300 hover:bg-gray-400 text-slate-800 hover:text-white border-1">
               <LinkedinIcon /> LinkedIn
             </Button>
           </a>
