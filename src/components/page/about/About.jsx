@@ -7,7 +7,7 @@ import leetcode_logo from "../../../assets/leetcode-svg.svg";
 export const About = () => {
   const navigate = useNavigate();
   return (
-    <div className="bg-slate-600 text-gray-200 pl-[264px] pr-[300px] bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed">
+    <div className="bg-slate-600 text-gray-200 pl-[264px] pr-[360px] bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed">
       <div className="flex">
         <div className="text-[60px] font-bold font-DM pt-14">
           Hi, <br />
@@ -16,12 +16,7 @@ export const About = () => {
           <div className="text-[18px] font-normal">
             Final-year B.Tech Electrical Engineering student at RCERT,
             Chandrapur, passionate about problem-solving and building scalable
-            software solutions. With strong grip in Data structures and
-            Algorithms, have solved over 300 problems on platforms like LeetCode
-            and GeeksforGeeks. My primary interest lies in web development,
-            especially backend development. I’m seeking opportunities as a
-            Software Engineer to contribute my skills, grow professionally, and
-            tackle real-world challenges.
+            software solutions.
           </div>
           <p className="text-[30px] font-semibold font-VN mt-10 ">
             A Developer has many hats to wear...!
