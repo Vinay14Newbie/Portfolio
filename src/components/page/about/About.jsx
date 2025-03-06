@@ -14,9 +14,8 @@ export const About = () => {
           I'm <span className="text-[#ed3a6a] font-VN">Vinay</span> <br />
           MERN Developer <br />
           <div className="text-[18px] font-normal">
-            Final-year B.Tech Electrical Engineering student at RCERT,
-            Chandrapur, passionate about problem-solving and building scalable
-            software solutions.
+            Final-year Engineering student at RCERT, Chandrapur, passionate
+            about problem-solving and building scalable software solutions.
           </div>
           <p className="text-[30px] font-semibold font-VN mt-10 ">
             A Developer has many hats to wear...!
