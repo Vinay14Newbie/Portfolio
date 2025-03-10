@@ -4,6 +4,7 @@ import redbus_pic from "../../../assets/redbus_pic.png";
 import imagegram_pic from "../../../assets/image-gram-pic.jpeg";
 import slack_pic from "../../../assets/slack-app.png";
 import currency_converter from "../../../assets/currency_converter.png";
+import to_do_list from "../../../assets/to_do_list.png";
 
 export const Project = () => {
   return (
@@ -66,6 +67,16 @@ export const Project = () => {
         img={ai_summariser_pic}
         github={"https://github.com/Vinay14Newbie/AI-Text-Summarizer-"}
         skills={["HTML", "CSS", "JavaScript", "Node.js", "Express.js"]}
+      />
+      <ProjectCard
+        title={"To Do List"}
+        description={
+          "Classic To-do list app using React.js, used context-API for state management. User also can edit the task if needed."
+        }
+        link={"https://to-do-list-taupe-mu.vercel.app/"}
+        img={to_do_list}
+        github={"https://github.com/Vinay14Newbie/To-Do-List"}
+        skills={["React.js", "Tailwind-CSS", "Context-API"]}
       />
       <ProjectCard
         title={"Red Bus Clone"}
