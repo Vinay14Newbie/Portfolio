@@ -5,10 +5,17 @@ import imagegram_pic from "../../../assets/image-gram-pic.jpeg";
 import slack_pic from "../../../assets/slack-app.png";
 import currency_converter from "../../../assets/currency_converter.png";
 import to_do_list from "../../../assets/to_do_list.png";
+import communion_app from "../../../assets/communion-app.png";
+import pokemon_explorer from "../../../assets/pokemon_explorer.png";
+import coupon_distribution from "../../../assets/coupon_distribution.png";
+import { useEffect } from "react";
 
 export const Project = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top on page change
+  }, []);
   return (
-    <div className="px-[164px] bg-slate-700 py-8 grid grid-cols-2 gap-6 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed justify-items-center">
+    <div className="px-[164px] md:px-16 lg:px-[164px]  bg-slate-700 py-8 grid grid-cols-1 sm:grid-cols-2 gap-6 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed justify-items-center">
       <ProjectCard
         title={"Messaging App"}
         description={
@@ -49,6 +56,43 @@ export const Project = () => {
         ]}
       />
       <ProjectCard
+        title={"Communion App"}
+        description={
+          "Developed a responsive event management web app using React.js, Tailwind CSS and Motion library for animation. Used local storage to persist user-created events and maintain state across sessions. Combined dynamic event filtering feature by category (Religious, Social, Charity). Incorporated an overlay form with smooth animations for a better user experience."
+        }
+        link={"https://communion-app-ruby.vercel.app/"}
+        img={communion_app}
+        github={"https://github.com/Vinay14Newbie/Communion-App"}
+        skills={["React.js", "Tailwind-CSS", "Motion library"]}
+      />
+      <ProjectCard
+        title={"Coupon Distribution App"}
+        description={
+          "Round-Robin Coupon Distribution. A live web app that distributes coupons to guest users in a round-robin manner with abuse prevention using IP and cookie tracking to restrict multiple claims from the same user. (Note: The app may take some time to respond as the backend is deployed on Render's free tier, which can cause delays due to inactivity..:)"
+        }
+        link={"https://coupon-distribution-zeta.vercel.app/"}
+        img={coupon_distribution}
+        github={"https://github.com/Vinay14Newbie/Coupon-Distribution"}
+        skills={[
+          "Node.js",
+          "Cookies",
+          "Express.js",
+          "React.js",
+          "Tailwind-CSS",
+          "CORS",
+        ]}
+      />
+      <ProjectCard
+        title={"Pokemon Explorer"}
+        description={
+          "Pokémon Explorer is a React app that displays Pokémon data using PokeAPI. It supports searching Pokémon by name, fetching paginated data, and displaying detailed information like abilities, types, and moves. Built with React Router, Axios, and styled using Tailwind CSS."
+        }
+        link={"https://pokemon-explorer-lovat.vercel.app/"}
+        img={pokemon_explorer}
+        github={"https://github.com/Vinay14Newbie/Pokemon-Explorer"}
+        skills={["React.js", "Tailwind-CSS", "Axios"]}
+      />
+      <ProjectCard
         title={"Currency Converter"}
         description={
           "A dynamic and user-friendly currency converter application using React.js and Tailwind CSS. Integrated currency conversion API to fetch live exchange rates."
@@ -66,7 +110,14 @@ export const Project = () => {
         link={"https://ai-text-summarizer-srjf.onrender.com/"}
         img={ai_summariser_pic}
         github={"https://github.com/Vinay14Newbie/AI-Text-Summarizer-"}
-        skills={["HTML", "CSS", "JavaScript", "Node.js", "Express.js"]}
+        skills={[
+          "Hugging Face API",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Node.js",
+          "Express.js",
+        ]}
       />
       <ProjectCard
         title={"To Do List"}
