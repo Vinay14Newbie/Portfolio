@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { LinkedinIcon, Mail, MailIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="px-[140px] bg-slate-800">
+    <footer className="bg-slate-800 text-gray-300 py-3 px-4 md:px-16 lg:px-[264px]">
       <div>
         <div className="flex justify-between lg:px-6 text-gray-300 font-semibold py-2">
           <div className="flex gap-x-5">
