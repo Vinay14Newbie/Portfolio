@@ -8,6 +8,7 @@ import to_do_list from "../../../assets/to_do_list.png";
 import communion_app from "../../../assets/communion-app.png";
 import pokemon_explorer from "../../../assets/pokemon_explorer.png";
 import coupon_distribution from "../../../assets/coupon_distribution.png";
+import school_finder from "../../../assets/school_finder.png";
 import { useEffect } from "react";
 
 export const Project = () => {
@@ -54,6 +55,16 @@ export const Project = () => {
           "JSON Web Token (JWT)",
           "User Authentication",
         ]}
+      />
+      <ProjectCard
+        title={"School Finder"}
+        description={
+          "Developed a location-based school search application which allow users to find nearby schools based on their inputted address. Integrated an address search API to dynamically fetch latitude and longitude, enabling accurate geolocation. Implemented geospatial sorting using the Haversine formula, ranking schools by proximity with high accuracy. Designed an optimized paginated results system in MySQL, ensuring efficient data retrieval and display. Built a Responsive and user-friendly UI using React.js and Tailwind CSS, enhancing navigation and accessibility."
+        }
+        link={"https://school-finder-theta.vercel.app/"}
+        img={school_finder}
+        github={"https://github.com/Vinay14Newbie/School-Finder"}
+        skills={["Node.js", "Express.js", "MySQL", "React.js", "Tailwind-CSS"]}
       />
       <ProjectCard
         title={"Communion App"}
