@@ -13,10 +13,10 @@ import { useEffect } from "react";
 
 export const Project = () => {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top on page change
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top on every refresh or route
   }, []);
   return (
-    <div className="px-[164px] md:px-16 lg:px-[164px]  bg-slate-700 py-8 grid grid-cols-1 sm:grid-cols-2 gap-6 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed justify-items-center">
+    <div className="px-[164px] md:px-16 lg:px-[164px]  bg-slate-700 py-8 grid grid-cols-1 lg:grid-cols-2 gap-6 bg-[url(https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid)] opacity-90 bg-fixed justify-items-center">
       <ProjectCard
         title={"Messaging App"}
         description={

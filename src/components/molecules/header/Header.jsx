@@ -17,7 +17,7 @@ export default function Header() {
           Vinay Duryodhan
         </div>
 
-        {/* Hamburger Icon (Mobile) */}
+        {/* Hamburger Icon */}
         <div className="lg:hidden">
           {isOpen ? (
             <X
@@ -32,7 +32,7 @@ export default function Header() {
           )}
         </div>
 
-        {/* Desktop Navigation */}
+        {/* Normal view */}
         <div className="hidden lg:flex lg:space-x-8">
           <NavLink
             to="/"

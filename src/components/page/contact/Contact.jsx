@@ -22,7 +22,7 @@ export const Contact = () => {
         </motion.div>
 
         <motion.div
-          className="w-[500px]"
+          className="lg:w-[500px] w-[400px]"
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
@@ -31,7 +31,7 @@ export const Contact = () => {
         </motion.div>
       </div>
 
-      <div className="flex items-center justify-between my-20">
+      <div className="lg:flex items-center justify-between my-20">
         <motion.div
           className="mr-20"
           initial={{ rotate: -5 }}
