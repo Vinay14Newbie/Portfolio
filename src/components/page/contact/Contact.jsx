@@ -43,7 +43,7 @@ export const Contact = () => {
           <motion.img
             src="https://img.freepik.com/free-vector/cute-cat-fishing-fish-moon-cartoon-vector-icon-illustration-animal-sport-icon-concept-isolated_138676-9612.jpg?ga=GA1.1.569627644.1734773229&semt=ais_hybrid"
             alt="Cat"
-            className="rounded-s-full size-80"
+            className="rounded-s-full lg:size-80 lg:block hidden"
             whileHover={{
               scale: 1.1,
               rotate: 5,
