@@ -9,6 +9,7 @@ import communion_app from "../../../assets/communion-app.png";
 import pokemon_explorer from "../../../assets/pokemon_explorer.png";
 import coupon_distribution from "../../../assets/coupon_distribution.png";
 import school_finder from "../../../assets/school_finder.png";
+import todo_summary_assistant from "../../../assets/todo_summary_pic.png";
 import { useEffect } from "react";
 
 export const Project = () => {
@@ -36,6 +37,24 @@ export const Project = () => {
           "Model-View-Controller (MVC)",
           "JSON Web Token (JWT)",
           "User Authentication",
+        ]}
+      />
+      <ProjectCard
+        title={"Todo Summary Assistant "}
+        description={
+          "•	Developed a Full stack web application using MERN stack to manage and track personal to-dos in real time. MongoDB as a database to store the to-dos.•	Incorporated Cohere’s AI language model to summarize all pending to-dos. Connected the app to Slack via webhook to automate summary and send it to the team or channel. •	Implemented full CRUD functionality and responsive UI for better user experience."
+        }
+        img={todo_summary_assistant}
+        github={"https://github.com/Vinay14Newbie/Todo-Summary-Assistant"}
+        skills={[
+          "Slack Webhook",
+          "LLM Model",
+          "Node.js",
+          "React.js",
+          "Tailwind-CSS",
+          "Express.js",
+          "MongoDB",
+          "Mongoose ODM",
         ]}
       />
       <ProjectCard
